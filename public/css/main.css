@@ -1,0 +1,194 @@
+
+#main_body{background-color:  #2F4F4F;}
+
+/* ================  ================= NAVIGETION LINKS  */
+body {margin: 0;}
+ul
+{
+    list-style-type:none;
+    margin:  auto;
+    padding: 0;
+    font-size: 18px;
+    font-family:Times New Roman Times, serif;
+    overflow: hidden;
+    background-color: #333333;
+    width: 98%;
+    position: fixed;
+    top: 0;
+}
+
+li {float: left;}
+
+li a
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {background-color: #1E90FF;}
+
+
+/* ======================= INDEX PAGE =========================== */
+#main_div_content
+{
+    margin: auto;
+    width: 98%;
+	margin-top: 20px;
+    background-color:#708090;
+}
+
+#footer
+{
+    width: 100%;
+    background-color: #333333;
+}
+
+.text-to-marquee
+{
+    color: white;
+    font-size: 15px;
+    font-weight:bold;
+    font-family:Times New Roman Times, serif;
+    width: 100%;
+
+}
+.copyright-lable
+{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight:bold;
+    font-family:Times New Roman Times, serif;
+
+}
+
+/* ================================ CONTACTS PAGE ========== */
+.contacts-ul-info
+{
+    width: 50%;
+}
+/*================================= ABOUT US PAGE ========== */
+.about-pg-titles
+{
+    background-image: url("main/about_titles.png");
+    border-radius: 50px 50px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.about-pg-henry-label
+{
+    background-image: url("main/about_titles.png");
+    border-radius: 50px 50px;
+    /* width: 188px; */
+    /* width: 300px; */
+    text-align: center;
+    height: 35px;
+}
+
+.about-pg-label,.about-pg-henry-label
+{
+    color: white;
+    font-size: 20px;
+    font-family:Times New Roman Times, serif;
+}
+
+
+.main-text-body-pargraphs
+{
+	padding: 10px 10px 10px 10px;
+    margin: 0px;
+    color:  black;
+    font-size: 16px;
+    font-style: oblique;
+    font-weight: 500;
+	font-family:Times New Roman Times, serif;
+}
+
+/* =================================== CONTACTS PAGE ============== */
+
+.whats-app-icone-img
+{
+    width: 40px;
+}
+/* ========================== GALLERY PAGE =================================== */
+
+
+.gallery-imgs-programming
+{
+    width: 30%;
+    height: 30%;
+    border-radius: 50px;
+}
+
+.gallery-imgs-programming-top-right
+{
+    width: 30%;
+    height: 30%;
+    border-radius: 50px;
+}
+
+
+.gallery-imgs-programming-bottom-left
+{
+    /* float: left; */
+    margin-left: 10px;
+    width: 280px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.gallery-imgs-programming-bottom-right
+{
+    float: right;
+    width: 280px;
+    height: 300px;
+    margin-top: 5px;
+    border-radius: 50px;
+}
+
+
+/* ============================= INTRESETS PAGE ================ */
+
+.interest-description-btns
+    {
+        background-color:#708090;
+        cursor: pointer;
+        padding: 8px 8px 8px 8px;
+        width: 100%;
+        border-color: #708090;
+        border-style: solid;
+        text-align: left;
+        font-size: 18px;
+        font-family:Times New Roman Times, serif;
+        color:white;
+        font-family:Times New Roman Times, serif;
+        transition: 0.4s;
+
+    }
+.interest-description-btns.active {background-color: #1E90FF; }
+
+.interest-description-btns:hover {background-color:  	#B0C4DE;}
+
+.interest-description-btns:after
+ {
+    content: '\002B'; /* plus sign*/
+    color: white;
+    font-weight: bolder;
+    float: right;
+    margin-left: 5px;
+}
+.interest-description-btns.active:after {content: "\2212"; }
+
+.description-contents
+    {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
