@@ -3,7 +3,7 @@
 
 /* ================  ================= NAVIGETION LINKS  */
 body {margin: 0;}
-ul
+/* ul
 {
     list-style-type:none;
     margin:  auto;
@@ -27,8 +27,22 @@ li a
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover {background-color: #1E90FF;}
+li a:hover {background-color: #1E90FF;} */
 
+a,.menu-label
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:Times New Roman Times, serif;
+}
+a:hover {background-color: #1E90FF;width: 100%}
+.menu-links-btn{background-color: #333333; border:none;}
+.menu-links-btn:hover {background-color:#1E90FF;width: 100%}
+.drop-dwon-menu-links,.links-div {background-color: #333333;}
 
 /* ======================= INDEX PAGE =========================== */
 #main_div_content

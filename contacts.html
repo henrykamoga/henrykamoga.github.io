@@ -12,14 +12,19 @@
 </head>
 <body id="main_body" ><br>
 	<div id="main_div_content">
-		<ul>
-			<li><a href="index.html">About</a></li>
-			<li><a href="interests.html"> Interests</a></li>
-			<li><a href="projects.html">Projects</a></li>
-			<!-- <li><a href="gallery.html">Gallery</a></li> -->
-			<li><a href="contacts.html">Contacts</a></li>
-		</ul>
-
+		<div class="drop-dwon-menu-links">
+			<div class="w3-dropdown-click">
+				<button class="menu-links-btn" onclick="OpenDropDown()"><label class="menu-label" > Menu</label> </button>
+					<div id="demo" class="w3-dropdown-content w3-card links-div">
+						<a href="index.html" >About</a><br>
+						<a href="skills.html" > Skills</a><br>
+						<a href="projects.html" >Projects</a><br>
+						<a href="contacts.html" >Contacts</a><br>
+					</div>
+			</div>
+		</div>
+		
+		<br><br>
 			<center class="main-text-body-pargraphs">
 				<span style="font-size:60px;">&#128241;</span>
 				<br> <img src="static/img/icone.png" class="whats-app-icone-img" > +256 701-243-139
@@ -29,6 +34,8 @@
 					For software Functionality, Reliability,Usability, Efficiency, Maintainability and Portability.
 				</p>
 			</center>
+		
+		<br><br>
 		<div id="footer">
 			<center>
 				<p class="text-to-marquee">&nbsp; A computer program does what you tell it to do, not what you want it to do.</p>
